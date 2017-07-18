@@ -1,0 +1,25 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   err.c                                              :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: tjose <marvin@42.fr>                       +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2016/11/10 19:15:59 by tjose             #+#    #+#             */
+/*   Updated: 2016/11/10 20:02:02 by tjose            ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "tail.h"
+
+void	print_err(char *name)
+{
+	ft_putstr("tail: ", 2);
+	ft_putstr(name, 2);
+	if (errno == 2)
+		ft_putstr(": No such file or directory\n", 2);
+	if (errno == 13)
+		ft_putstr(": Permission denied\n", 2);
+	if (errno == 21)
+		ft_putstr(": Is a directory\n", 2);
+}

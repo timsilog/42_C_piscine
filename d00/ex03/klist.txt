@@ -1,0 +1,8 @@
+Credentials cache: API:22917
+        Principal: tjose@42.US.ORG
+
+  Issued                Expires               Principal
+Oct 24 18:41:31 2016  Oct 25 04:41:31 2016  krbtgt/42.US.ORG@42.US.ORG
+Oct 24 18:41:34 2016  Oct 25 04:41:31 2016  ldap/ldap-proxy.42.us.org@42.US.ORG
+Oct 24 19:24:03 2016  Oct 25 04:41:31 2016  ldap/ldap-master.42.us.org@42.US.ORG
+Oct 24 22:52:36 2016  Oct 25 04:41:31 2016  host/vgs-fn1.42.us.org@42.US.ORG
